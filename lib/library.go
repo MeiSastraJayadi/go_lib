@@ -7,6 +7,6 @@ func Factorial(n int32) int64 {
 	return int64(n) * Factorial(n-1)
 }
 
-func SayHello() string {
-	return "Hello World"
+func SayHello(name string) string {
+	return "Hello " + name
 }
